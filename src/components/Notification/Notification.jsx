@@ -5,9 +5,9 @@ export const Notification = ({ message }) => {
     <ul>
       <li>{message}</li>
     </ul>
-  )
-}
+  );
+};
 
 Notification.propTypes = {
   messgae: PropTypes.string,
-}
+};

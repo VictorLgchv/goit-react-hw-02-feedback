@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types'
-import {Div} from './Section.styled'
+import PropTypes from 'prop-types';
+import { Div } from './Section.styled';
 
 export const Section = ({ title, children }) => {
   return (
@@ -12,4 +12,4 @@ export const Section = ({ title, children }) => {
 
 Section.propTypes = {
   title: PropTypes.string.isRequired,
-}
+};
